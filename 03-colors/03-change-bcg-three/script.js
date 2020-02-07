@@ -11,4 +11,15 @@
 
 (() => {
     // your code here
+    document.getElementById("run").addEventListener("click", () => {
+        document.querySelector('html').style.backgroundColor = 
+                "rgb(" + Math.floor(Math.random() * 255) 
+                + "," + Math.floor(Math.random() * 255) 
+                + "," + Math.floor(Math.random() * 255) + ")";
+
+    // function aleatoire(){
+    //     var randcolor = "#" + Math.floor(Math.random() * 16777215).toString(16);
+    //     return randcolor;
+    // }
+    });
 })();
